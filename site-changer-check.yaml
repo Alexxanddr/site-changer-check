@@ -16,13 +16,13 @@ spec:
          containers:
          - env:
             - name: URL
-              value: "https://mangayo.it/"
+              value: "https://foo.bar/"
             - name: TRIGGER_WORD
-              value: "Torneremo presto."
+              value: "WORD to be triggered"
             - name: TELEGRAM_CHAT_ID
-              value: "179110842"
+              value: ""
             - name: TELEGRAM_API_KEY
-              value: "1812024462:AAFG0E30jkoBvjSYA3dB-u2ar1OSyqLONoE"
+              value: "XXXXXX:XXXXXXXXXXXXXXXXXXXXXXX"
            image: alexxanddr/site-changer-check:latest
            imagePullPolicy: Always
            name: site-changer-check
