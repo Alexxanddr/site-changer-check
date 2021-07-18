@@ -2,6 +2,11 @@
 
 Simple shell script for check changes in a specific website/page.
 
+## Build Command:
+```
+docker buildx build --push --tag alexxanddr/site-changer-check:latest --platform linux/amd64,linux/arm/v7,linux/arm64/v8  .
+```
+
 The variable required are:
 
 export URL="https://foo.bar/" \
